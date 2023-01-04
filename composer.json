@@ -20,7 +20,7 @@
         "illuminate/console": "^9.21",
         "illuminate/routing": "^8.0|^9.0",
         "illuminate/support": "^9.21",
-        "fiveone-digital/documentarian": "dev-master"
+        "fiveone-digital/documentarian": "@dev"
     },
     "require-dev": {
         "laravel/legacy-factories": "^1.0.5",
@@ -53,9 +53,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": {
-        "fiveone-digital/documentarian": {
+        "fiveone-digital/laravel-compass": {
             "type": "vcs",
-            "url": "git@github.com:fiveone-digital/documentarian.git"
+            "url": "git@github.com:fiveone-digital/laravel-compass.git"
         }
     }
 }
