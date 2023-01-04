@@ -1,5 +1,5 @@
 {
-    "name": "davidhsianturi/laravel-compass",
+    "name": "fiveone-digital/laravel-compass",
     "description": "An elegant REST assistent for the Laravel framework.",
     "keywords": [
         "laravel",
@@ -9,16 +9,18 @@
     ],
     "homepage": "https://github.com/davidhsianturi/laravel-compass",
     "license": "MIT",
-    "authors": [{
-        "name": "David H. Sianturi",
-        "email": "davidhsianturi@gmail.com"
-    }],
+    "authors": [
+        {
+            "name": "David H. Sianturi",
+            "email": "davidhsianturi@gmail.com"
+        }
+    ],
     "require": {
-        "php": "^7.3|^8.0",
-        "illuminate/console": "^6.0|^7.0|^8.0",
-        "illuminate/routing": "^6.0|^7.0|^8.0",
-        "illuminate/support": "^6.0|^7.0|^8.0",
-        "mpociot/documentarian": "dev-master"
+        "php": "^8.0.2",
+        "illuminate/console": "^9.21",
+        "illuminate/routing": "^8.0|^9.0",
+        "illuminate/support": "^9.21",
+        "fiveone-digital/documentarian": "dev-master"
     },
     "require-dev": {
         "laravel/legacy-factories": "^1.0.5",
@@ -49,5 +51,11 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": {
+        "fiveone-digital/documentarian": {
+            "type": "vcs",
+            "url": "git@github.com:fiveone-digital/documentarian.git"
+        }
+    }
 }
