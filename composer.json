@@ -53,7 +53,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": {
-        "fiveone-digital/laravel-compass": {
+        "fiveone-digital/documentarian": {
             "type": "vcs",
             "url": "git@github.com:fiveone-digital/laravel-compass.git"
         }
