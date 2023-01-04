@@ -19,9 +19,27 @@ Laravel Compass is an elegant REST assistant for the Laravel framework that you 
 
 ## Installation and usage
 
-This package requires PHP 7.2 and Laravel 6.0 or higher.  
-You'll find installation instructions and full documentation on https://davidhsianturi.com/laravel-compass.
+In order to install the package, you need add following repositories to your composer file.
+```json
+    "repositories": {
+        "fiveone-digital/laravel-compass": {
+            "type": "vcs",
+            "url": "git@github.com:fiveone-digital/laravel-compass.git"
+        },
+        "fiveone-digital/documentarian": {
+            "type": "vcs",
+            "url": "git@github.com:fiveone-digital/documentarian.git"
+        }
+    }
+```
 
+and then run following composer require commands
+```
+	composer require fiveone-digital/documentarian
+	composer require fiveone-digital/laravel-compass
+```
+This package requires PHP 8.1 and Laravel 9.0 or higher.  
+ 
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
